@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+#header{
+    background-color:rgba(000, 000, 000, .1);
+    padding: 0 220px;
+    height: 60px;
+}
+#logo{
+    float: left;
+}
+#hello{
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 30px;
+    float: right
+}
+h1{
+    text-align: center
+}
