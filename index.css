@@ -4,16 +4,20 @@ body{
 }
 #logo{
     position: fixed;
-    top: 15;
-    left: 150;}
+    top: 30;
+    left: 240;
+    color:rgb(0, 0, 175);
+}
 #cta{
     border: solid rgb(0, 0, 175) 2px;
+    color:rgb(0, 0, 175);
     background-color: white;
-    padding: 10;
+    padding: 5 10;
     border-radius: 30px;
     position: fixed;
-    top: 15;
-    right: 150;}}
+    top: 20;
+    right: 240;
+}
 #header{
     width: 100vw;
     position: fixed;
@@ -21,10 +25,29 @@ body{
 }
 .wbg{
     height: 100vh;
-    color: black;
+    color:rgb(0, 0, 175);
 }
 .cbg{
-    height: 50vh;
+    height: 70vh;
     background-color: rgb(0, 0, 175);
     color:white;
+}
+#columns_3{
+    position: relative;
+    border-radius: 30px;
+    top: -150px;
+    background-color: white;
+    width: 900px;
+    overflow: auto;
+    margin: auto;
+    column-count: 3;
+    border: solid 1px rgb(200, 200, 200, .4);
+}
+.column{
+    padding: 10px;
+    height: 600px;
+}
+.column:nth-child(2){
+    border-right: solid 1px rgb(200, 200, 200,.4);
+    border-left: solid 1px rgb(200, 200, 200,.4);
 }
