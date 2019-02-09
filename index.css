@@ -86,7 +86,8 @@ h1{
 }
 .column{
     padding: 10px;
-    height: 600px;
+    overflow: auto;
+    max-height: 600px;
 }
 .column:nth-child(2){
     border-right: solid 1px rgb(200, 200, 200,.4);
