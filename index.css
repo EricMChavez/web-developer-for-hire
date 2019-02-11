@@ -69,6 +69,7 @@ h1{
     margin: auto;
     top: -284;
     width: 700px;
+    z-index: -1;
 }
 #text_box1{
     position: relative; 
